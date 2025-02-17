@@ -1,5 +1,7 @@
 # Django Project Settings for Render Deployment
 
+J’ai utilisé Django pour le backend, PostgreSQL pour la base de données et Gunicorn pour le serveur de production. Le projet est configuré avec des variables d’environnement pour sécuriser les données sensibles et il est prêt pour un déploiement cloud!
+
 This project contains the essential settings for deploying a Django application on Render. Key features include:
 
 - **Environment Management**: Uses `python-dotenv` to load configuration from environment variables securely.
